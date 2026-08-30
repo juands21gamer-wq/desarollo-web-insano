@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Camilo Rojas — Portafolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-brand">Camilo Rojas <span class="dim">// dev.multimedia</span></div>
+  <div class="nav-links">
+    <a href="#about">Sobre mí</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#contact">Contacto</a>
+    <button id="theme-toggle" aria-label="Cambiar tema">
+      <span class="dot"></span>
+      <span id="theme-label">modo: oscuro</span>
+    </button>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="eyebrow">portafolio · 2026</div>
+  <h1>Construyo interfaces<br>que funcionan bien<span class="cursor">&nbsp;</span></h1>
+  <p>Estudiante de Ingeniería Multimedia enfocado en desarrollo web front-end.
+     Me interesa el detalle: transiciones que no estorban, código legible
+     y experiencias que se sienten sólidas en cualquier dispositivo.</p>
+  <div class="hero-actions">
+    <button class="btn btn-primary" id="go-projects">Ver mis proyectos →</button>
+    <a href="#contact" class="btn btn-ghost">Escribirme</a>
+  </div>
+</section>
+
+<section id="about">
+  <div class="section-head">
+    <span class="index">01</span>
+    <h2>Sobre mí</h2>
+  </div>
+  <div class="about-grid">
+    <p>Curso Desarrollo Web / Desarrollo de Aplicaciones Web. Trabajo con
+       HTML, CSS y JavaScript puro antes de saltar a frameworks, porque
+       entender la base evita depender de "magia" que no comprendo.
+       Este portafolio, incluido su modo oscuro, está hecho sin librerías.</p>
+    <div>
+      <p style="margin-bottom:14px;">Herramientas que uso con más frecuencia:</p>
+      <div class="stack-list">
+        <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+        <span>Git</span><span>Figma</span><span>Node.js</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="section-head">
+    <span class="index">02</span>
+    <h2>Proyectos</h2>
+  </div>
+  <div class="projects-grid">
+    <div class="card">
+      <span class="tag">Web app</span>
+      <h3>Modo oscuro / claro</h3>
+      <p>Este mismo sitio: un ejercicio de theming con CSS variables y
+         persistencia en localStorage.</p>
+      <a href="#">Ver repositorio →</a>
+    </div>
+    <div class="card">
+      <span class="tag">Front-end</span>
+      <h3>Gestor de tareas</h3>
+      <p>To-do list con almacenamiento local, filtros por estado y
+         soporte para arrastrar y soltar.</p>
+      <a href="#">Ver repositorio →</a>
+    </div>
+    <div class="card">
+      <span class="tag">Diseño UI</span>
+      <h3>Landing de producto</h3>
+      <p>Página de aterrizaje responsiva con animaciones al hacer scroll
+         y formulario validado en JS.</p>
+      <a href="#">Ver repositorio →</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-head">
+    <span class="index">03</span>
+    <h2>Contacto</h2>
+  </div>
+  <div class="contact-box">
+    <p>¿Tienes un proyecto en mente o quieres revisar mi código? Escríbeme,
+       normalmente respondo en un día.</p>
+    <a href="mailto:camilo.rojas@correo.com" class="btn btn-primary">camilo.rojas@correo.com</a>
+  </div>
+</section>
+
+<footer>
+  <span id="last-visit-label">última visita: —</span>
+  <span id="session-count-label">vistas en esta sesión: —</span>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
