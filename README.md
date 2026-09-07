@@ -34,4 +34,4 @@ y visita `http://localhost:8000`.
 
 ## Autor
 
-Camilo Rojas — Ingeniería Multimedia
+Juan David  — Ingeniería Multimedia
